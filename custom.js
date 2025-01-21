@@ -1,4 +1,3 @@
-<script>
 document.addEventListener('DOMContentLoaded', function () {
     const observer = new IntersectionObserver(function (entries, observer) {
         const targetDiv = document.getElementById('tile-feature-list-am9XSf');
@@ -57,4 +56,3 @@ document.addEventListener('DOMContentLoaded', function () {
         observer.observe(targetDiv);
     }
 });
-</script>
